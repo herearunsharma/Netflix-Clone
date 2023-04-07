@@ -1,9 +1,22 @@
 import React from "react";
+import "../assets/css/dashboard.css";
+import ReactPlayer from "react-player";
+import PlayLogo from "../assets/images/play-button.svg";
 
 const Dashboard = () => {
   return (
     <div>
-      <h1>Dashboard</h1>
+      <header className="header">
+        <ReactPlayer
+          playing={true}
+          loop={true}
+          width="100%"
+          height="100%"
+          volume={1}
+          className="header__video"
+          url="https://vimeo.com/384025132"
+        />
+      </header>
     </div>
   );
 };

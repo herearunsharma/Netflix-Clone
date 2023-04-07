@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./theme.css";
+import "../assets/css/theme.css";
 import { FcNightLandscape, FcLandscape } from "react-icons/fc";
 
 const Sticky = () => {

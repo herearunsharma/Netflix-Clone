@@ -1,5 +1,5 @@
 import React from "react";
-import "./Nav.css";
+import "../assets/css/Nav.css";
 
 function Navbar() {
   return (
@@ -22,13 +22,13 @@ function Navbar() {
               <a href="/"></a>Home
             </li>
             <li>
+              <a href="./movies"></a>TV Shows
+            </li>
+            <li>
               <a href="./movies"></a>Movies
             </li>
             <li>
-              <a href="./movies"></a>Trending
-            </li>
-            <li>
-              <a href="./movies"></a>Collection
+              <a href="./movies"></a>My List
             </li>
           </ul>
         </div>
