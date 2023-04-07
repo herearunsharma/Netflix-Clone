@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/dashboard.css";
 import ReactPlayer from "react-player";
-import PlayLogo from "../assets/images/play-button.svg";
+import Popular from "./Popular";
 
 const Dashboard = () => {
   return (
@@ -17,6 +17,7 @@ const Dashboard = () => {
           url="https://vimeo.com/384025132"
         />
       </header>
+      <Popular />
     </div>
   );
 };
