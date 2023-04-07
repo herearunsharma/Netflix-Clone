@@ -5,3 +5,10 @@
 a:link {
   text-decoration: none;
 }
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #111;
+}

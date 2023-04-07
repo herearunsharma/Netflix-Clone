@@ -46,3 +46,6 @@
   background: #252121;
   border: 1px solid #4c4a4a;
 }
+.dark__mode .nav {
+  color: #ffffff;
+}
