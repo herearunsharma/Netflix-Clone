@@ -16,7 +16,7 @@ function Navbar() {
           alt="Avatar"
         />
 
-        <div>
+        {/* <div>
           <ul className="navbar">
             <li>
               <a href="/"></a>Home
@@ -31,7 +31,7 @@ function Navbar() {
               <a href="./movies"></a>My List
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
