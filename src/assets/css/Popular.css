@@ -21,7 +21,7 @@ h1 {
   margin: 20px 0;
 }
 .wrapper section .item {
-  padding: 0 2px;
+  padding: 0 4px;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
@@ -61,8 +61,13 @@ h1 {
 }
 
 .popular {
-  margin-top: 20px;
-  padding: 0 60px;
+  margin-top: 30px;
+  color: red;
+}
+
+.card1 {
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 @media only screen and (max-width: 600px) {

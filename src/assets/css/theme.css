@@ -49,3 +49,6 @@
 .dark__mode .nav {
   color: #ffffff;
 }
+.dark__mode .popular {
+  color: red;
+}
